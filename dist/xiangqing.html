@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<!-- <script src = 'js/jquery-1.10.1.min.js'></script> -->
+	<script src = 'js/require.js' async = 'true' defer data-main = 'js/main'></script>
+	<link rel="stylesheet" href="css/xiangqing.css">
+</head>
+<body>
+	<!-- TOP -->
+	<div class = "topbox clear">
+		<div class = "top clear">
+			<div class = "top-left">
+				<span class = 'top-left-span1'>您好，欢迎来到量格购！</span>
+				<span class = 'top-left-span2'>
+					<a href="">[请登录]</a>
+					<a href="">[免费注册]</a>
+				</span>
+			</div>
+			<ul class = "top-right">
+				<li>
+					<a href="">我的订单</a>
+				</li>
+				<li>
+					<a href="" class = 'top-right-a1'>我的小量</a>
+					<ul id = 'ul'>
+						<li><a href=""></a></li>
+						<li><a href="">我的优惠券</a></li>
+						<li><a href="">我的收藏夹</a></li>
+						<li><a href="">商品评论</a></li>
+						<li><a href="">我的私人定制</a></li>
+					</ul>
+				</li>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">13157632491</a></li>
+				<li><a href="">公众号</a></li>
+				<li><a href="">收藏</a></li>
+		</div>
+	</div>
+<!-- top-pic -->
+	<div class = 'top-pic'>
+		<div class = 'pic'>
+			<a href=""><img src="../images/g-1.jpg" alt=""></a>
+		</div>
+	</div>
+<!-- header-top -->
+	<div class = 'headerbox'>
+		<div class = 'header-top clear'>
+			<div class = 'header-top-left'>
+				<a href=""><img src="../images/g-2.jpg" alt=""></a>
+			</div>
+			<div class = 'header-top-center clear'>
+				<form action="" class = 'clear'>
+					<input type="text" placeholder = '华为 p20 PRO'>
+					<input type="submit" value = '搜索'>
+				</form>
+				<ul>
+					<li><a href="">华为</a></li>
+					<li><a href="">牛肉丸</a></li>
+					<li><a href="">茶叶</a></li>
+					<li><a href="">华为笔记本</a></li>
+				</ul>
+			</div>
+			<div class = 'header-top-right'>
+				<span class = 'sc_num'>0</span>	
+				<span class = 'sc_sale'>购物车</span>
+			</div>
+			<div class = 'sc_table sc_Ntable'>
+				<li class = 'goods_items clear'>
+					<div class = 'goods_pic'>
+						<a href="#"><img src="http://359mai-images.s3.mall.ekaidian.com/9f/16/19/3a0cb99e094254718d67c73290584226.jpg?imageView2/2/w/210/h/210/ignore-error/1/?1543716163#h" alt=""></a>
+					</div>
+					<div class= 'goods-side'>
+						<div class = 'goods_info'>
+							<p>Huawei/华为 荣耀10青春版 幻彩渐变 2400万自拍</p>
+							<p>￥36.00</p>
+							<p class = 'number'>数量：
+								<span class= 'amount'>0</span>
+								<a class = 'out'>移除</a>
+							</p>
+						</div>
+					</div>
+				</li>
+
+			</div>
+		</div>
+		<div class = 'header-buttom'>
+			<ul class = 'clear'>
+				<li>所有商品分类</li>
+				<li><a href="">首页</a></li>
+				<li><a href="">会员中心</a></li>
+				<li><a href="">品牌区</a></li>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 详情页信息 -->
+	<div class ='contentbox'>
+		<div class = 'content'>
+
+			<div class = 'top'>
+				
+			</div>
+			<div class = 'bottom clear'>
+				<div class = 'bott-left clear'>
+					<div class = 'product'>
+						<div class = 'product-t' id = 'small-pic'>
+							<img src="images/g-32.jpg" alt="">
+							<div id = 'lay'></div>
+						</div>
+						<div id = 'big-pic'>
+							<img src="images/g-32.jpg" alt="" id = 'pic-big'>
+						</div>
+						<div class = 'product-c'>
+							<ul class = 'clear'>
+								<li class = 'active'><img src="images/g-30.jpg" alt=""></li>
+							</ul>
+						</div>
+						<div class = 'product-b'>
+							<button>分享</button>
+							<button>收藏</button>
+						</div>						
+					</div>
+					<div class = 'product-main'>
+						<div class = 'main-div1'>
+							<h2>七巧豆 婴儿服饰套装礼盒</h2>
+						</div>
+						<div class = 'main-div2'>
+							<span>销售价</span>
+							<span>￥135.00</span>
+						</div>
+						<div class = 'main-div3'>
+							<span>商品评分</span>
+						</div>
+						<div class = 'main-div4'>
+							<span>货品编号</span>
+							<span>品牌：七巧豆</span>
+						</div>
+						<div class = 'main-div5'>
+							<ul class="box clear">
+								<li><span>数量：</span></li>
+								<li><button id="plus">+</button></li>
+								<li><input type="text" id="text" value="1"/></li>
+								<li><button id="subtract">-</button></li>
+								<li>&nbsp;&nbsp;&nbsp;¥<input type="text" id="money" value="135"/></li>
+							</ul>
+							<button class = 'buy'>立即购买</button>
+							<button class = 'join'>加入购物车</button>
+						</div>
+					</div>
+				</div>
+				<div class = 'bott-right'>
+					<div class = 'b-r-top'>
+						<dl>
+							<dt><a href="">服饰箱包</a></dt>
+							<dd><a href="">男装</a></dd>
+							<dd><a href="">女装</a></dd>
+							<dd><a href="">男鞋</a></dd>
+							<dd><a href="">女鞋</a></dd>
+							<dd><a href="">内衣</a></dd>
+							<dd><a href="">童装</a></dd>
+
+						</dl>
+					</div>
+					<div class = 'b-r-center'>
+						<div>
+							<span>热卖商品</span>
+						</div>
+						<!-- <div class = "div-big">
+							<dl><img src="images/g-33.jpg" alt=""></dl>
+							<dd>正宗潮汕牛肉丸500g 火锅食材必备</dd>
+							<dd class= 'big-dd2'>
+								<span>￥36.00</span>
+								<span> ￥36.00</span>
+							</dd>
+							<button>加入购物车</button>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- foot-box1 -->
+	<div class = 'footbox1'>
+		<div class ='foot1 clear'>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+				<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+			<dl>
+				<dt><a href=""><img src="../images/g-8.jpg" alt=""></a></dt>
+				<dd><a href="">权威荣誉</a></dd>
+			</dl>
+		</div>
+	</div>
+<!-- foot-box2 -->
+	<div class = 'footbox2'>
+		<div class = 'foot2 clear'>
+			<ul>
+				<li><a href="">新手上路</a></li>
+				<li><a href="">积分抵现</a></li>
+			</ul>
+			<ul>
+				<li><a href="">购物指南</a></li>
+				<li><a href="">优惠劵介绍</a></li>
+				<li><a href="">订单说明</a></li>
+				<li><a href="">价格保护</a></li>
+				<li><a href="">会员权益</a></li>
+			</ul>
+			<ul>
+				<li><a href="">支付/配送方式</a></li>
+				<li><a href="">在线支付</a></li>
+				<li><a href="">预存款</a></li>
+				<li><a href="">物流配送</a></li>
+			</ul>
+			<ul>
+				<li><a href="">售后服务</a></li>
+				<li><a href="">退换货流程</a></li>
+			</ul>
+			<ul>
+				<li><a href="">公司简介</a></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="">招聘信息</a></li>
+				<li><a href="">业务合作</a></li>
+			</ul>
+			<ul>
+				<dt><a href=""><img src="../images/g-9.jpg" alt=""></a></dt>
+				<dd><a href="">微信公众号</a></dd>
+			</ul>
+			<ul>
+				<dt><a href=""><img src="../images/g-10.jpg" alt=""></a></dt>
+				<dd><a href="">支付宝服务窗</a></dd>
+			</ul>
+		</div>
+	</div>
+<!-- foot3box -->
+	<div class = 'footbox3'>
+		<div class = 'foot3 clear'>
+			<a href="">就爱点评网</a>
+			<a href="">去广告插件</a>
+			<a href="">量格视频</a>
+			<a href="">天天飞通航产业平台</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+			<a href="">就爱点评网</a>
+			<a href="">去广告插件</a>
+			<a href="">量格视频</a>
+			<a href="">天天飞通航产业平台</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+			<a href="">就爱点评网</a>
+			<a href="">去广告插件</a>
+			<a href="">量格视频</a>
+			<a href="">天天飞通航产业平台</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+			<a href="">就爱点评网</a>
+			<a href="">去广告插件</a>
+			<a href="">量格视频</a>
+			<a href="">天天飞通航产业平台</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+			<a href="">就爱点评网</a>
+			<a href="">去广告插件</a>
+			<a href="">量格视频</a>
+			<a href="">天天飞通航产业平台</a>
+			<a href="">俩格音乐</a>
+			<a href="">阳澄湖大闸蟹</a>
+			<a href="">珠宝首饰</a>
+		</div>
+	</div>
+<!-- foot-box4 -->
+	<div class = 'footbox4'>
+		<div class = 'foot4 clear'>
+			<div>
+				<span>@2018 All rights reserved 有任何购物问题联系我们的在线客服</span>
+				<span>电话：13157632491</span>
+				<span>工作时间：周一至周五8：00 - 18:00 粤ICP备16005068</span>
+			</div>
+			<div>
+				<a href=""><img src="../images/g-11.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
